@@ -1,0 +1,19 @@
+{
+  "type": "commonjs",
+  "name": "vitepress-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/globby": "^9.1.0",
+    "@types/node": "^16.0.0",
+    "globby": "11.0.4",
+    "vitepress": "^0.22.4"
+  },
+  "scripts": {
+    "dev": "vitepress dev NoteBooks",
+    "docs:dev": "vitepress dev NoteBooks",
+    "docs:build": "vitepress build NoteBooks",
+    "docs:serve": "vitepress serve NoteBooks"
+  }
+}
