@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
+import * as globby from "globby";
 
 // { text: "目录", children: readD() }
 export function readD(dir: string) {
@@ -32,3 +33,29 @@ export function readD(dir: string) {
 
   return reslut;
 }
+
+const basePath =
+  "W:/CPS/MyProject/demo/cps-cli/vitepress-template/Notebooks";
+
+const exclude = ["public"];
+
+const basePathInfo = fs
+  .readdirSync(basePath, { withFileTypes: true })
+  .filter(
+    Dirrent =>
+      Dirrent.isDirectory() &&
+      !Dirrent.name.startsWith(".") &&
+      !exclude.includes(Dirrent.name)
+  )
+  .map(item => item.name.toString());
+
+let t = path.join(basePath, "/*.md");
+console.log("t: ", t);
+console.log(
+  "basePathInfo: ",
+  globby.sync(basePath, {
+    expandDirectories: {
+      extensions: ["md"],
+    },
+  })
+);
