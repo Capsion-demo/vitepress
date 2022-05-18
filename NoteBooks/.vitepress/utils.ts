@@ -45,7 +45,7 @@ function createIndexMd(dir: string, basename?: string): void {
       data += `# [${each.name}](%{basename}/${each.name}/index.md)${end}`;
       createIndexMd(path.join(fullPath, each.name));
     } else if (each.name.endsWith(".md")) {
-      renameWithoutSpace(each.name);
+      renameWithoutSpace(path.join(dir, each.name));
       data += `# [${each.name}](%{basename}/${each.name})${end}`;
     }
   }
