@@ -1,22 +1,26 @@
----
-sidebar: auto
----
+# [CSS](%{basename}/CSS/index.md)
 
+# [ECahrts](%{basename}/ECahrts/index.md)
 
-# 记录一些常用的概念
+# [Electron](%{basename}/Electron/index.md)
 
+# [HTML](%{basename}/HTML/index.md)
 
-## 123123123123
+# [index-old.md](%{basename}/index-old.md)
 
-# SPA 应用
+# [index.md](%{basename}/index.md)
 
-## 123123123123
+# [JavaScript](%{basename}/JavaScript/index.md)
 
-前后端分离的年代，基本前端架构都是采用SPA的形式，采用一个入口文件 app.js ，和 index.html ，其内容通过浏览器的地址栏 #+xxxx路径进行实时渲染，这就是我们常说的前端路由：
+# [typescript](%{basename}/typescript/index.md)
 
+# [交互设计](%{basename}/交互设计/index.md)
 
+# [工程化](%{basename}/工程化/index.md)
 
-特点：单入口，基于前端的路由，伪静态页面
+# [常用框架](%{basename}/常用框架/index.md)
 
+# [知识点](%{basename}/知识点/index.md)
 
+# [规范化](%{basename}/规范化/index.md)
 

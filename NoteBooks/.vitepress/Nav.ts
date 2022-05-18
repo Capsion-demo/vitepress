@@ -13,16 +13,7 @@ import { defineConfig } from "vitepress";
 // import { readD } from "./utils";
 
 // 导航栏的基本格式
-const TEMPLATE = [
-  { text: "普通链接", link: "/【01】前端相关/" },
-  {
-    text: "下拉链接",
-    items: {
-      text: "子项目名称",
-      link: "链接",
-    },
-  },
-];
+const BASE_NAV = [{ text: "首页", link: "/" }];
 
 const MY_REPO = [
   {
@@ -43,10 +34,15 @@ const MY_REPO = [
 const WEB_BOOK = [
   {
     text: "前端相关",
+    link: "/【01】前端相关/",
     items: [
       {
-        text: "1",
-        link: "2",
+        text: "CSS",
+        link: "/【01】前端相关/CSS/",
+      },
+      {
+        text: "HTML",
+        link: "/【01】前端相关/HTML/",
       },
     ],
   },
@@ -94,7 +90,7 @@ const SERVER_BOOK = [
 export default (path?: string, extendPath?: string[]) => {
   return defineConfig({
     themeConfig: {
-      nav: [...WEB_BOOK, ...SERVER_BOOK, ...MY_REPO],
+      nav: [...BASE_NAV, ...WEB_BOOK, ...SERVER_BOOK, ...MY_REPO],
     },
   });
 };

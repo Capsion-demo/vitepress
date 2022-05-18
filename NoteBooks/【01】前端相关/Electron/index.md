@@ -1,24 +1,28 @@
-# 基础使用
+# [Electron常用包.md](%{basename}/Electron常用包.md)
 
-## 安装
+# [index.md](%{basename}/index.md)
 
-```bash
-# 设置镜像源
-npm config set electron_mirror http://npm.taobao.org/mirrors/electron/
-npm config set electron_mirror https://github.com/electron/electron
+# [【坑】注意事项](%{basename}/【坑】注意事项/index.md)
 
-# 安装32位（如果要调用dll，一般采用32）
-npm i -g --arch=ia32 --no-bin-links electron --registry=https://registry.npm.taobao.org
-npm i -g --arch=ia32 --no-bin-links electron@6.0.0 --registry=https://registry.npm.taobao.org
-```
+# [优化](%{basename}/优化/index.md)
 
-# 主要模块
+# [基础.md](%{basename}/基础.md)
 
-- **BrowserWindow** 创建窗口`gui`相关模块 - 只存在于主进程 
-- **app** 主程序的窗口实例 
-- **remote** 可以在渲染进程中调用主进程的模块 
-- **ipcmain** 主进程通讯 
-- **ipcrendener** 渲染进程通讯              
+# [基础开发](%{basename}/基础开发/index.md)
 
+# [安全相关](%{basename}/安全相关/index.md)
 
+# [常用功能](%{basename}/常用功能/index.md)
+
+# [开发规范](%{basename}/开发规范/index.md)
+
+# [打包相关](%{basename}/打包相关/index.md)
+
+# [更新相关](%{basename}/更新相关/index.md)
+
+# [架构参考](%{basename}/架构参考/index.md)
+
+# [版本特性](%{basename}/版本特性/index.md)
+
+# [相关框架](%{basename}/相关框架/index.md)
 

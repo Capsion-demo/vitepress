@@ -1,12 +1,8 @@
-# 前端工程化
+# [ESLint.md](%{basename}/ESLint.md)
 
-## 相关组件
+# [index.md](%{basename}/index.md)
 
-- Eslint/Tslint
-- Prettier
-- husky
-- lint-staged
-- commitlint
-- commitizen
+# [Prettier.md](%{basename}/Prettier.md)
 
-参考：https://github.com/jp-liu/workflow-template/blob/main/package.json
+# [注释规范.md](%{basename}/注释规范.md)
+

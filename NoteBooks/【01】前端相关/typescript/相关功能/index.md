@@ -1,5 +1,8 @@
-@microsoft/api-extractor - 合并声明文件
+# [@microsoftapi-extractor.md](%{basename}/@microsoftapi-extractor.md)
 
+# [index.md](%{basename}/index.md)
 
+# [TSLint.md](%{basename}/TSLint.md)
 
-TSLint 代码格式规范
+# [【API管理】Api-extractor.md](%{basename}/【API管理】Api-extractor.md)
+

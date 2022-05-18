@@ -2,7 +2,7 @@
 {
     "home": true,
     "heroImage": "/mimi.png",
-    "actionText": "首页",
+    "actionText": "个人首页",
     "actionLink": "http://www.capsion.top",
     "altActionText": "关于我",
     "altActionLink": "https://gitee.com/capsion/resume",
