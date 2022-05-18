@@ -5,6 +5,7 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
     "@types/globby": "^9.1.0",
     "@types/node": "^16.0.0",
     "globby": "11.0.4",
@@ -15,5 +16,8 @@
     "docs:dev": "vitepress dev NoteBooks",
     "docs:build": "vitepress build NoteBooks",
     "docs:serve": "vitepress serve NoteBooks"
+  },
+  "dependencies": {
+    "fs-extra": "^10.1.0"
   }
 }

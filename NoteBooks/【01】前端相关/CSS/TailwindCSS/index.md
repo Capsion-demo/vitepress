@@ -1,44 +1,20 @@
-# 配合 prettier 排序样式
+# [index.md](index.md)
 
-[链接](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier)
+# [【ui组件】DaisyUI.md](【ui组件】DaisyUI.md)
 
+# [【坑】.md](【坑】.md)
 
+# [【格式化】排序.md](【格式化】排序.md)
 
+# [【设计】颜色.md](【设计】颜色.md)
 
+# [【资源】官方UI库.md](【资源】官方UI库.md)
 
+# [【资源】相关资源.md](【资源】相关资源.md)
 
+# [优化.md](优化.md)
 
+# [基础使用.md](基础使用.md)
 
-
-# 样式组合(@apply)
-
-
-
-
-
-# 颜色风格
-
-
-
-
-
-
-
-
-
-# 版本特性
-
-## 2.x
-
-
-
-
-
-## 3.x
-
-- **Just in Time**（JIT） - 保持开发和生产构建的是一致的，开发也实现按需构建
-- 内置大良样式颜色开箱即用
-- 支持颜色阴影（超好看）
-- 滚动捕捉 API - 滑动item时，能指定item最终停留的位置（居中）
-- 
+# [版本特性.md](版本特性.md)
 

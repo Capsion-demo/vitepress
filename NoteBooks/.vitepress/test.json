@@ -1,0 +1,994 @@
+[
+  {
+    "text": "CSS",
+    "children": [
+      {
+        "text": "flex布局",
+        "link": "/CSS/flex布局.md"
+      },
+      {
+        "text": "grid布局",
+        "link": "/CSS/grid布局.md"
+      },
+      {
+        "text": "PostCSS",
+        "children": [
+          {
+            "text": "基础使用",
+            "link": "/PostCSS/基础使用.md"
+          }
+        ]
+      },
+      {
+        "text": "stylus",
+        "children": []
+      },
+      {
+        "text": "TailwindCSS",
+        "children": [
+          {
+            "text": "【ui组件】DaisyUI",
+            "link": "/TailwindCSS/【ui组件】DaisyUI.md"
+          },
+          {
+            "text": "【坑】",
+            "link": "/TailwindCSS/【坑】.md"
+          },
+          {
+            "text": "【格式化】排序",
+            "link": "/TailwindCSS/【格式化】排序.md"
+          },
+          {
+            "text": "【设计】颜色",
+            "link": "/TailwindCSS/【设计】颜色.md"
+          },
+          {
+            "text": "【资源】官方UI库",
+            "link": "/TailwindCSS/【资源】官方UI库.md"
+          },
+          {
+            "text": "【资源】相关资源",
+            "link": "/TailwindCSS/【资源】相关资源.md"
+          },
+          {
+            "text": "优化",
+            "link": "/TailwindCSS/优化.md"
+          },
+          {
+            "text": "基础使用",
+            "link": "/TailwindCSS/基础使用.md"
+          },
+          {
+            "text": "版本特性",
+            "link": "/TailwindCSS/版本特性.md"
+          }
+        ]
+      },
+      {
+        "text": "【基础】内置函数",
+        "link": "/CSS/【基础】内置函数.md"
+      },
+      {
+        "text": "【基础】屏幕断点",
+        "link": "/CSS/【基础】屏幕断点.md"
+      },
+      {
+        "text": "【资源】字体",
+        "link": "/CSS/【资源】字体.md"
+      },
+      {
+        "text": "【资源】效果",
+        "link": "/CSS/【资源】效果.md"
+      },
+      {
+        "text": "内置函数",
+        "children": [
+          {
+            "text": "Untitled",
+            "link": "/内置函数/Untitled.md"
+          }
+        ]
+      },
+      {
+        "text": "变量的使用",
+        "link": "/CSS/变量的使用.md"
+      },
+      {
+        "text": "基础单位",
+        "link": "/CSS/基础单位.md"
+      },
+      {
+        "text": "好看的颜色",
+        "link": "/CSS/好看的颜色.md"
+      },
+      {
+        "text": "居中",
+        "link": "/CSS/居中.md"
+      },
+      {
+        "text": "文献收集",
+        "children": [
+          {
+            "text": "【原理】深入浏览器理解CSS animations 和 transitions的性能问题",
+            "link": "/文献收集/【原理】深入浏览器理解CSS animations 和 transitions的性能问题.md"
+          },
+          {
+            "text": "【性能】CSS3动画卡顿性能优化解决方案",
+            "link": "/文献收集/【性能】CSS3动画卡顿性能优化解决方案.md"
+          },
+          {
+            "text": "【性能】绘制极其流畅的css动画",
+            "link": "/文献收集/【性能】绘制极其流畅的css动画.md"
+          }
+        ]
+      },
+      {
+        "text": "有趣案例",
+        "children": [
+          {
+            "text": "bilibili冬季头部",
+            "link": "/有趣案例/bilibili冬季头部.md"
+          }
+        ]
+      },
+      {
+        "text": "样式风格",
+        "children": [
+          {
+            "text": "mkdocs-material",
+            "link": "/样式风格/mkdocs-material.md"
+          }
+        ]
+      },
+      {
+        "text": "背景样式案例",
+        "link": "/CSS/背景样式案例.md"
+      },
+      {
+        "text": "计算属性",
+        "link": "/CSS/计算属性.md"
+      },
+      {
+        "text": "选择器",
+        "link": "/CSS/选择器.md"
+      },
+      {
+        "text": "预置动画库",
+        "children": [
+          {
+            "text": "animateCss",
+            "link": "/预置动画库/animateCss.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "ECahrts",
+    "children": [
+      {
+        "text": "geoJSON",
+        "link": "/ECahrts/geoJSON.md"
+      },
+      {
+        "text": "vue2 typescript 中使用 echarts",
+        "link": "/ECahrts/vue2 typescript 中使用 echarts.md"
+      },
+      {
+        "text": "vue3 typescript 中使用 echarts",
+        "link": "/ECahrts/vue3 typescript 中使用 echarts.md"
+      },
+      {
+        "text": "仪表盘-扇形图",
+        "children": [
+          {
+            "text": "扇形",
+            "link": "/仪表盘-扇形图/扇形.md"
+          }
+        ]
+      },
+      {
+        "text": "第三方库",
+        "link": "/ECahrts/第三方库.md"
+      }
+    ]
+  },
+  {
+    "text": "Electron",
+    "children": [
+      {
+        "text": "Electron常用包",
+        "link": "/Electron/Electron常用包.md"
+      },
+      {
+        "text": "【坑】注意事项",
+        "children": [
+          {
+            "text": "ffi踩坑合集",
+            "link": "/【坑】注意事项/ffi踩坑合集.md"
+          },
+          {
+            "text": "常见错误",
+            "link": "/【坑】注意事项/常见错误.md"
+          },
+          {
+            "text": "设置软件id",
+            "link": "/【坑】注意事项/设置软件id.md"
+          },
+          {
+            "text": "黑屏处理",
+            "link": "/【坑】注意事项/黑屏处理.md"
+          }
+        ]
+      },
+      {
+        "text": "优化",
+        "children": []
+      },
+      {
+        "text": "基础",
+        "link": "/Electron/基础.md"
+      },
+      {
+        "text": "基础开发",
+        "children": [
+          {
+            "text": "preload",
+            "link": "/基础开发/preload.js.md"
+          },
+          {
+            "text": "入口文件",
+            "link": "/基础开发/入口文件.md"
+          },
+          {
+            "text": "开启DEBUG",
+            "link": "/基础开发/开启DEBUG.md"
+          },
+          {
+            "text": "引入JQuery",
+            "link": "/基础开发/引入JQuery.md"
+          },
+          {
+            "text": "提前装备打包依赖",
+            "link": "/基础开发/提前装备打包依赖.md"
+          },
+          {
+            "text": "环境变量",
+            "link": "/基础开发/环境变量.md"
+          },
+          {
+            "text": "生命周期",
+            "link": "/基础开发/生命周期.md"
+          },
+          {
+            "text": "进程通讯",
+            "link": "/基础开发/进程通讯.md"
+          },
+          {
+            "text": "配置Electron缓存目录",
+            "link": "/基础开发/配置Electron缓存目录.md"
+          }
+        ]
+      },
+      {
+        "text": "安全相关",
+        "children": [
+          {
+            "text": "规范",
+            "link": "/安全相关/规范.md"
+          }
+        ]
+      },
+      {
+        "text": "常用功能",
+        "children": [
+          {
+            "text": "Electron-log",
+            "link": "/常用功能/Electron-log.md"
+          },
+          {
+            "text": "主题切换",
+            "link": "/常用功能/主题切换.md"
+          },
+          {
+            "text": "创建子窗口",
+            "link": "/常用功能/创建子窗口.md"
+          },
+          {
+            "text": "开发和生产",
+            "link": "/常用功能/开发和生产.md"
+          },
+          {
+            "text": "截图功能",
+            "link": "/常用功能/截图功能.md"
+          },
+          {
+            "text": "拖拽文件",
+            "link": "/常用功能/拖拽文件.md"
+          },
+          {
+            "text": "组织系统休眠",
+            "link": "/常用功能/组织系统休眠.md"
+          },
+          {
+            "text": "调用原生通知功能",
+            "link": "/常用功能/调用原生通知功能.md"
+          },
+          {
+            "text": "进程通讯",
+            "link": "/常用功能/进程通讯.md"
+          },
+          {
+            "text": "防止重复运行",
+            "link": "/常用功能/防止重复运行.md"
+          },
+          {
+            "text": "随系统启动",
+            "link": "/常用功能/随系统启动.md"
+          }
+        ]
+      },
+      {
+        "text": "开发规范",
+        "children": [
+          {
+            "text": "开发指导",
+            "link": "/开发规范/开发指导.md"
+          }
+        ]
+      },
+      {
+        "text": "打包相关",
+        "children": [
+          {
+            "text": "Electron-builder下载慢",
+            "link": "/打包相关/Electron-builder下载慢.md"
+          },
+          {
+            "text": "electron-packager",
+            "link": "/打包相关/electron-packager.md"
+          },
+          {
+            "text": "体积优化",
+            "link": "/打包相关/体积优化.md"
+          },
+          {
+            "text": "加快下载打包速度",
+            "link": "/打包相关/加快下载打包速度.md"
+          },
+          {
+            "text": "加快打包速度",
+            "link": "/打包相关/加快打包速度.md"
+          }
+        ]
+      },
+      {
+        "text": "更新相关",
+        "children": [
+          {
+            "text": "热更新（方案欠佳）",
+            "link": "/更新相关/热更新（方案欠佳）.md"
+          },
+          {
+            "text": "自动更新（知乎系列1）",
+            "link": "/更新相关/自动更新（知乎系列1）.md"
+          },
+          {
+            "text": "自动更新（知乎系列2）",
+            "link": "/更新相关/自动更新（知乎系列2）.md"
+          },
+          {
+            "text": "自动更新（知乎系列3）",
+            "link": "/更新相关/自动更新（知乎系列3）.md"
+          }
+        ]
+      },
+      {
+        "text": "架构参考",
+        "children": [
+          {
+            "text": "Motrix",
+            "link": "/架构参考/Motrix.md"
+          },
+          {
+            "text": "picgo",
+            "link": "/架构参考/picgo.md"
+          },
+          {
+            "text": "截图插件",
+            "link": "/架构参考/截图插件.md"
+          },
+          {
+            "text": "案例1",
+            "link": "/架构参考/案例1.md"
+          }
+        ]
+      },
+      {
+        "text": "版本特性",
+        "children": [
+          {
+            "text": "12.0",
+            "children": [
+              {
+                "text": "上下文隔离",
+                "link": "/12.0/上下文隔离.md"
+              }
+            ]
+          },
+          {
+            "text": "16.0",
+            "children": []
+          },
+          {
+            "text": "17.0",
+            "children": []
+          },
+          {
+            "text": "Electron各版本重大更新",
+            "link": "/版本特性/Electron各版本重大更新.md"
+          },
+          {
+            "text": "Untitled",
+            "link": "/版本特性/Untitled.md"
+          }
+        ]
+      },
+      {
+        "text": "相关框架",
+        "children": [
+          {
+            "text": "electron-forge",
+            "link": "/相关框架/electron-forge.md"
+          },
+          {
+            "text": "electron-vue",
+            "link": "/相关框架/electron-vue.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "HTML",
+    "children": [
+      {
+        "text": "语义化",
+        "link": "/HTML/语义化.md"
+      }
+    ]
+  },
+  {
+    "text": "JavaScript",
+    "children": [
+      {
+        "text": "ES新特性",
+        "children": [
+          {
+            "text": "ES10 ES2019",
+            "link": "/ES新特性/ES10 ES2019.md"
+          },
+          {
+            "text": "ES6 ES2015",
+            "link": "/ES新特性/ES6 ES2015.md"
+          },
+          {
+            "text": "ES7  ES2016",
+            "link": "/ES新特性/ES7  ES2016.md"
+          },
+          {
+            "text": "ES8  ES2017",
+            "link": "/ES新特性/ES8  ES2017.md"
+          },
+          {
+            "text": "ES9 ES2018",
+            "link": "/ES新特性/ES9 ES2018.md"
+          }
+        ]
+      },
+      {
+        "text": "JS吐槽",
+        "link": "/JavaScript/JS吐槽.md"
+      },
+      {
+        "text": "require实战案例",
+        "link": "/JavaScript/require实战案例.md"
+      },
+      {
+        "text": "基础使用",
+        "children": [
+          {
+            "text": "ArrayBuffer 与 Blob",
+            "link": "/基础使用/ArrayBuffer 与 Blob.md"
+          },
+          {
+            "text": "Base64",
+            "link": "/基础使用/Base64.md"
+          },
+          {
+            "text": "Blob",
+            "link": "/基础使用/Blob.md"
+          },
+          {
+            "text": "createObjectURL与readAsDataURL",
+            "link": "/基础使用/createObjectURL与readAsDataURL.md"
+          },
+          {
+            "text": "FIle",
+            "link": "/基础使用/FIle.md"
+          },
+          {
+            "text": "FileReader",
+            "link": "/基础使用/FileReader.md"
+          },
+          {
+            "text": "imageData",
+            "link": "/基础使用/imageData.md"
+          },
+          {
+            "text": "Untitled",
+            "link": "/基础使用/Untitled.md"
+          },
+          {
+            "text": "URL",
+            "link": "/基础使用/URL.md"
+          },
+          {
+            "text": "前端文件处理总结",
+            "link": "/基础使用/前端文件处理总结.md"
+          },
+          {
+            "text": "字符串",
+            "link": "/基础使用/字符串.md"
+          },
+          {
+            "text": "对象",
+            "link": "/基础使用/对象.md"
+          },
+          {
+            "text": "数组",
+            "link": "/基础使用/数组.md"
+          }
+        ]
+      },
+      {
+        "text": "好文收集",
+        "children": [
+          {
+            "text": "为什么采用虚拟DOM",
+            "link": "/好文收集/为什么采用虚拟DOM.md"
+          }
+        ]
+      },
+      {
+        "text": "工具函数",
+        "children": [
+          {
+            "text": "文件拖拽",
+            "link": "/工具函数/文件拖拽.md"
+          }
+        ]
+      },
+      {
+        "text": "工具函数",
+        "link": "/JavaScript/工具函数.md"
+      },
+      {
+        "text": "常用轮子",
+        "children": [
+          {
+            "text": "后台管理",
+            "children": []
+          },
+          {
+            "text": "实用demo",
+            "children": [
+              {
+                "text": "Axios",
+                "link": "/实用demo/Axios.md"
+              },
+              {
+                "text": "【canvas】仿射拉伸",
+                "link": "/实用demo/【canvas】仿射拉伸.md"
+              },
+              {
+                "text": "【canvas】手写签字",
+                "link": "/实用demo/【canvas】手写签字.md"
+              },
+              {
+                "text": "【canvas】画框拖拽",
+                "link": "/实用demo/【canvas】画框拖拽.md"
+              },
+              {
+                "text": "基于css 仿射拉伸",
+                "link": "/实用demo/基于css 仿射拉伸.md"
+              },
+              {
+                "text": "截图组件",
+                "link": "/实用demo/截图组件.md"
+              },
+              {
+                "text": "车牌录入键盘",
+                "link": "/实用demo/车牌录入键盘.md"
+              }
+            ]
+          },
+          {
+            "text": "常用UI部件",
+            "link": "/常用轮子/常用UI部件.md"
+          },
+          {
+            "text": "案例收集",
+            "children": [
+              {
+                "text": "使用CLI开发一个Vue3的npm库",
+                "link": "/案例收集/使用CLI开发一个Vue3的npm库.md"
+              },
+              {
+                "text": "实现Web端自定义截屏(JS版)",
+                "link": "/案例收集/实现Web端自定义截屏(JS版).md"
+              },
+              {
+                "text": "页面变灰",
+                "link": "/案例收集/页面变灰.md"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "typescript",
+    "children": [
+      {
+        "text": "interface",
+        "link": "/typescript/interface.md"
+      },
+      {
+        "text": "ts-node-dev",
+        "link": "/typescript/ts-node-dev.md"
+      },
+      {
+        "text": "ts-node",
+        "link": "/typescript/ts-node.md"
+      },
+      {
+        "text": "types",
+        "link": "/typescript/types.d文件列表.md"
+      },
+      {
+        "text": "【坑】常见错误",
+        "link": "/typescript/【坑】常见错误.md"
+      },
+      {
+        "text": "【笔记】深入理解TypeScript",
+        "link": "/typescript/【笔记】深入理解TypeScript.md"
+      },
+      {
+        "text": "基础使用",
+        "link": "/typescript/基础使用.md"
+      },
+      {
+        "text": "基础类型",
+        "link": "/typescript/基础类型.md"
+      },
+      {
+        "text": "常见错误",
+        "link": "/typescript/常见错误.md"
+      },
+      {
+        "text": "泛型",
+        "link": "/typescript/泛型.md"
+      },
+      {
+        "text": "相关功能",
+        "children": [
+          {
+            "text": "@microsoftapi-extractor",
+            "link": "/相关功能/@microsoftapi-extractor.md"
+          },
+          {
+            "text": "TSLint",
+            "link": "/相关功能/TSLint.md"
+          },
+          {
+            "text": "【API管理】Api-extractor",
+            "link": "/相关功能/【API管理】Api-extractor.md"
+          }
+        ]
+      },
+      {
+        "text": "类型声明",
+        "link": "/typescript/类型声明.md"
+      },
+      {
+        "text": "配置文件",
+        "link": "/typescript/配置文件.md"
+      },
+      {
+        "text": "配置文件模板",
+        "link": "/typescript/配置文件模板.md"
+      },
+      {
+        "text": "项目环境搭建",
+        "link": "/typescript/项目环境搭建.md"
+      }
+    ]
+  },
+  {
+    "text": "交互设计",
+    "children": [
+      {
+        "text": "友好的地址提示",
+        "link": "/交互设计/友好的地址提示.md"
+      }
+    ]
+  },
+  {
+    "text": "工程化",
+    "children": [
+      {
+        "text": "rollup",
+        "children": [
+          {
+            "text": "Rollup插件",
+            "link": "/rollup/Rollup插件.md"
+          },
+          {
+            "text": "Rollup配置",
+            "link": "/rollup/Rollup配置.md"
+          },
+          {
+            "text": "使用案例",
+            "link": "/rollup/使用案例.md"
+          },
+          {
+            "text": "基础使用",
+            "link": "/rollup/基础使用.md"
+          }
+        ]
+      },
+      {
+        "text": "vite",
+        "children": [
+          {
+            "text": "使用案例",
+            "link": "/vite/使用案例.md"
+          },
+          {
+            "text": "基础",
+            "link": "/vite/基础.md"
+          },
+          {
+            "text": "安装",
+            "link": "/vite/安装.md"
+          },
+          {
+            "text": "实践技巧",
+            "link": "/vite/实践技巧.md"
+          },
+          {
+            "text": "插件",
+            "children": []
+          }
+        ]
+      },
+      {
+        "text": "webpack",
+        "children": [
+          {
+            "text": "webpack的require",
+            "link": "/webpack/webpack的require.md"
+          },
+          {
+            "text": "优化",
+            "link": "/webpack/优化.md"
+          },
+          {
+            "text": "加载器实践",
+            "link": "/webpack/加载器实践.md"
+          },
+          {
+            "text": "插件实践",
+            "link": "/webpack/插件实践.md"
+          },
+          {
+            "text": "配置文件",
+            "link": "/webpack/配置文件.md"
+          }
+        ]
+      },
+      {
+        "text": "【unplugin】自动引入插件",
+        "link": "/工程化/【unplugin】自动引入插件.md"
+      },
+      {
+        "text": "合并ts类型声明文件",
+        "link": "/工程化/合并ts类型声明文件.md"
+      }
+    ]
+  },
+  {
+    "text": "常用框架",
+    "children": [
+      {
+        "text": "vitepress",
+        "children": []
+      },
+      {
+        "text": "vue2.x",
+        "children": [
+          {
+            "text": "【基础】MVC和MVVM",
+            "link": "/vue2.x/【基础】MVC和MVVM.md"
+          },
+          {
+            "text": "【基础】样式绑定",
+            "link": "/vue2.x/【基础】样式绑定.md"
+          },
+          {
+            "text": "【基础】组件通讯",
+            "link": "/vue2.x/【基础】组件通讯.md"
+          },
+          {
+            "text": "【性能】优化汇总",
+            "children": []
+          },
+          {
+            "text": "【总结】Composition API",
+            "link": "/vue2.x/【总结】Composition API.md"
+          },
+          {
+            "text": "【总结】setup 使用注意事项",
+            "link": "/vue2.x/【总结】setup 使用注意事项.md"
+          },
+          {
+            "text": "【总结】vue2 技巧",
+            "link": "/vue2.x/【总结】vue2 技巧.md"
+          },
+          {
+            "text": "【总结】vue2和vue3",
+            "link": "/vue2.x/【总结】vue2和vue3.md"
+          },
+          {
+            "text": "【总结】Vue单向数据流和双向数据流",
+            "link": "/vue2.x/【总结】Vue单向数据流和双向数据流.md"
+          },
+          {
+            "text": "【总结】Vue的生命周期",
+            "link": "/vue2.x/【总结】Vue的生命周期.md"
+          },
+          {
+            "text": "【总结】响应式原理",
+            "link": "/vue2.x/【总结】响应式原理.md"
+          },
+          {
+            "text": "【总结】基础",
+            "link": "/vue2.x/【总结】基础.md"
+          },
+          {
+            "text": "【过渡】transition标签使用",
+            "link": "/vue2.x/【过渡】transition标签使用.md"
+          },
+          {
+            "text": "基础使用",
+            "link": "/vue2.x/基础使用.md"
+          }
+        ]
+      },
+      {
+        "text": "vue3.x",
+        "children": [
+          {
+            "text": "【基础】@别名引用",
+            "link": "/vue3.x/【基础】@别名引用.md"
+          },
+          {
+            "text": "【插件】自动引入Api",
+            "link": "/vue3.x/【插件】自动引入Api.md"
+          },
+          {
+            "text": "【新特性】vue3 新特性",
+            "link": "/vue3.x/【新特性】vue3 新特性.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "知识点",
+    "children": [
+      {
+        "text": "bind、apply、call",
+        "link": "/知识点/bind、apply、call.md"
+      },
+      {
+        "text": "BOM",
+        "link": "/知识点/BOM.md"
+      },
+      {
+        "text": "DOM",
+        "link": "/知识点/DOM.md"
+      },
+      {
+        "text": "MessageChannel是什么，怎么使用？",
+        "link": "/知识点/MessageChannel是什么，怎么使用？.md"
+      },
+      {
+        "text": "Promise",
+        "link": "/知识点/Promise.md"
+      },
+      {
+        "text": "SPA 应用",
+        "link": "/知识点/SPA 应用.md"
+      },
+      {
+        "text": "【web基础】浏览器内核",
+        "link": "/知识点/【web基础】浏览器内核.md"
+      },
+      {
+        "text": "【web基础】颜色",
+        "link": "/知识点/【web基础】颜色.md"
+      },
+      {
+        "text": "【伪概念】H5",
+        "link": "/知识点/【伪概念】H5.md"
+      },
+      {
+        "text": "【文献】",
+        "children": [
+          {
+            "text": "一文详解 Serverless 架构模式",
+            "link": "/【文献】/一文详解 Serverless 架构模式.md"
+          }
+        ]
+      },
+      {
+        "text": "【概念】serverLess",
+        "link": "/知识点/【概念】serverLess.md"
+      },
+      {
+        "text": "前后端分离",
+        "link": "/知识点/前后端分离.md"
+      },
+      {
+        "text": "变量提升",
+        "link": "/知识点/变量提升.md"
+      },
+      {
+        "text": "微服务",
+        "link": "/知识点/微服务.md"
+      },
+      {
+        "text": "模块化",
+        "link": "/知识点/模块化.md"
+      },
+      {
+        "text": "深拷贝",
+        "link": "/知识点/深拷贝.md"
+      },
+      {
+        "text": "组件文档",
+        "link": "/知识点/组件文档.md"
+      }
+    ]
+  },
+  {
+    "text": "规范化",
+    "children": [
+      {
+        "text": "ESLint",
+        "link": "/规范化/ESLint.md"
+      },
+      {
+        "text": "Prettier",
+        "link": "/规范化/Prettier.md"
+      },
+      {
+        "text": "注释规范",
+        "link": "/规范化/注释规范.md"
+      }
+    ]
+  }
+]

@@ -84,21 +84,17 @@
 ```
 
 
-
 - fr - 比例
-
 ```stylus
 // 表示采用两列，然后宽度平均计算
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
 // 12列的杉栏布局
 .container {
     grid-template-columns: repeat(12, 1fr);
 }
-    
 // 与指定尺寸配合使用
 .container {
   display: grid;
@@ -123,7 +119,7 @@
 
 - grid-row-gap - 行距
 - grid-column-gap - 列距
-- grid-gap - 简写， grid-gap <grid-row-gap> <grid-column-gap>
+- grid-gap - 简写， grid-gap `<grid-row-gap> <grid-column-gap>`
 
 ```stylus
 // 设置间距
