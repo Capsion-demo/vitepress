@@ -4,10 +4,10 @@ import * as globby from "globby";
 
 // { text: "目录", children: readD() }
 export function readD(dir: string) {
-  let basePath = path.resolve(path.dirname(dir));
-  console.log("basePath: ", basePath);
+  const exclude = ["public", "..", ".", "", ".vitepress", "Notebooks"];
+  let dirname = path.dirname(dir);
+  let basePath = path.basename(dir);
   let fullPath: string = path.resolve(dir);
-  console.log("fullPath: ", fullPath);
 
   if (!fs.lstatSync(fullPath)) return [];
 
@@ -18,44 +18,55 @@ export function readD(dir: string) {
     withFileTypes: true,
   })) {
     let text = each.name.split(".")[0];
-    let link = `/${basePath}/${dir}/${text}`;
+    let link = `/${title}/${each.name}`;
 
-    if (each.isDirectory()) {
+    if (each.isDirectory() && !exclude.includes(each.name)) {
       reslut.push({
         text,
+        link: `${link}/index.md`,
         children: readD(path.join(dir, each.name)),
       });
     } else {
       if (!each.name.endsWith(".md")) continue;
-      reslut.push({ text, link });
+
+      if (each.name == "index.md") {
+        reslut.push({ text: basePath, link });
+      } else {
+        reslut.push({ text, link });
+      }
     }
   }
 
   return reslut;
 }
 
-const basePath =
-  "W:/CPS/MyProject/demo/cps-cli/vitepress-template/Notebooks";
+// const basePath = "W:/CPS/MyProject/demo/cps-cli/vitepress-template/Notebooks";
 
-const exclude = ["public"];
+interface ItestOtions {
+  exclude?: string[];
+}
 
-const basePathInfo = fs
-  .readdirSync(basePath, { withFileTypes: true })
-  .filter(
-    Dirrent =>
-      Dirrent.isDirectory() &&
-      !Dirrent.name.startsWith(".") &&
-      !exclude.includes(Dirrent.name)
-  )
-  .map(item => item.name.toString());
+// const test = (basePath: string, options?: ItestOtions) => {
+//   return fs
+//     .readdirSync(basePath, { withFileTypes: true })
+//     .filter(Dirrent => {
+//       let isDirectory = Dirrent.isDirectory();
+//       let isConfig = Dirrent.name.startsWith(".");
+//       let exclude: any[] = [];
 
-let t = path.join(basePath, "/*.md");
-console.log("t: ", t);
-console.log(
-  "basePathInfo: ",
-  globby.sync(basePath, {
-    expandDirectories: {
-      extensions: ["md"],
-    },
-  })
-);
+//       if (options && options.exclude) exclude = options.exclude;
+//       let inExclude = exclude.includes(Dirrent.name);
+
+//       return !(isDirectory || isConfig || inExclude);
+//     })
+//     .map(item => item.name.toString());
+// };
+
+const basePath = "D:/CPS/MyProject/demo/cps-cli/cps-cli-vitepress/Notebooks";
+const dirname = path.basename(basePath);
+const exclude = ["public", "..", "."];
+
+const basePathInfo = readD(basePath);
+
+// console.log("basePathInfo: ", basePathInfo);
+console.log("basePathInfo: ", basePathInfo[2]);
